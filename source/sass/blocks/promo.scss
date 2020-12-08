@@ -1,0 +1,30 @@
+.promo {
+  padding-top: 185px;
+  padding-right: 433px;
+  padding-bottom: 296px;
+  padding-left: 1075px;
+  color: $bgcolor-white;
+  @include bg-image("travel-main-desktop.jpg");
+}
+
+.promo__title {
+  margin: 0;
+  margin-bottom: 28px;
+}
+
+.promo__description {
+  margin: 0;
+  margin-bottom: 33px;
+}
+
+.promo__btn {
+  position: relative;
+  width: 340px;
+  padding-right: 137px;
+
+  &::before {
+    position: absolute;
+    content: url(../img/icon-arrow.svg);
+    right: 40px;
+  }
+}

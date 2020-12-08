@@ -1,0 +1,135 @@
+.prices {
+  display: flex;
+  justify-content: space-between;
+}
+
+.prices__list {
+  display: flex;
+  width: 770px;
+  margin-right: 111px;
+}
+
+.prices__item {
+  display: flex;
+  flex-direction: column;
+  width: 370px;
+  padding: 40px 30px 30px;
+  border: 1px solid $tabs-color;
+  border-radius: 6px;
+  background-color: $bgcolor-white;
+
+  &--full {
+    margin-right: 30px;
+
+    .prices__header-title, .prices__header-price {
+      color: $btn-color;
+    }
+
+    .prices__header {
+      border-bottom: 1px solid rgba($color: $btn-color, $alpha: 0.5);
+    }
+
+    .prices__features {
+      margin-bottom: 55px;
+    }
+
+    .prices__feature {
+      &:not(:last-child) {
+        margin-bottom: 11px;
+      }
+    }
+  }
+
+  &--econom {
+    .prices__header {
+      border-bottom: 1px solid $tabs-color;
+    }
+
+    .prices__features {
+      margin-bottom: 28px;
+    }
+
+    .prices__feature {
+      &:not(:last-child) {
+        margin-bottom: 15px;
+      }
+    }
+  }
+}
+
+.prices__header {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 32px;
+}
+
+.prices__header-title {
+  margin: 0;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 34px;
+  color: $prices-color;
+}
+
+.prices__header-price {
+  margin: 0;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 34px;
+}
+
+.prices__description {
+  margin: 0;
+  padding-top: 41px;
+  padding-right: 16px;
+  padding-bottom: 28px;
+  line-height: 24px;
+}
+
+.prices__features {
+  padding-left: 30px;
+  line-height: 32px;
+}
+
+.prices__inner {
+  padding-top: 118px;
+}
+
+.prices__title {
+  margin: 0;
+  margin-bottom: 53px;
+
+  &::after {
+    width: 175px;
+    height: 3px;
+    top: 100px;
+  }
+}
+
+.prices__review {
+  margin: 0;
+  margin-bottom: 62px;
+  width: 299px;
+  line-height: 27px;
+}
+
+.prices__contacts {
+  padding-left: 47px;
+}
+
+.prices__call {
+  margin: 0;
+  margin-bottom: 13px;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 34px;
+  color: $main-black;
+}
+
+.prices__phone {
+  font-size: 20px;
+  line-height: 32px;
+  color: $black;
+}
+

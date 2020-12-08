@@ -1,0 +1,29 @@
+.page-footer {
+  display: flex;
+  padding-bottom: 73px;
+}
+
+.page-footer div:not(:last-child) {
+  border-right: 1px solid $border-footer-color;
+}
+
+.page-footer__title {
+  margin: 0;
+  margin-bottom: 13px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 32px;
+  color: $main-black;
+}
+
+.page-footer__link {
+  font-size: 14px;
+  line-height: 17px;
+  color: $footer-color;
+}
+
+.page-footer__contacts {
+  padding-left: 40px;
+  color: $btn-color;
+  text-decoration: underline;
+}

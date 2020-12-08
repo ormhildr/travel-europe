@@ -1,0 +1,11 @@
+.subtitle-page {
+  position: relative;
+  color: $title-color;
+
+  &::after {
+    position: absolute;
+    display: block;
+    content: "";
+    background-color: $btn-color;
+  }
+}

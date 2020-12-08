@@ -1,0 +1,22 @@
+.page-header {
+  display: flex;
+  padding-top: 37px;
+  padding-bottom: 30px;
+}
+
+.page-header__phone {
+  margin: 0;
+}
+
+.page-header__phone a {
+  position: relative;
+  font-size: 18px;
+  line-height: 32px;
+  text-decoration-line: underline;
+  color: $main-black;
+}
+
+.page-header__phone-icon {
+  position: absolute;
+  left: -40px;
+}

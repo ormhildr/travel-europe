@@ -1,0 +1,35 @@
+.features-country {
+  display: flex;
+  width: 899px;
+}
+
+.features-country__title {
+  margin: 0;
+  margin-bottom: 54px;
+
+  &::after {
+    width: 175px;
+    height: 3px;
+    top: 100px;
+  }
+}
+
+.features-country__description {
+  width: 372px;
+  margin: 0;
+  margin-bottom: 50px;
+  letter-spacing: -0.466667px;
+}
+
+.features-country__inner {
+  width: 370px;
+  margin-right: 100px;
+}
+
+.features-country__btn {
+  width: 250px;
+}
+
+.features-country__img {
+  margin-top: -14px;
+}

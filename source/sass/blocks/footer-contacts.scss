@@ -1,0 +1,17 @@
+.footer-contacts {
+  width: 388px;
+  display: flex;
+  flex-direction: column;
+  padding-right: 33px;
+  padding-left: 103px;
+}
+
+.footer-contacts__mail {
+  margin-bottom: 19px;
+  padding-top: 8px;
+}
+
+.footer-contacts__phone {
+  font-size: 16px;
+  line-height: 32px;
+}

@@ -1,0 +1,12 @@
+.footer-features {
+  width: 403px;
+  padding-right: 35px;
+  padding-left: 13px;
+}
+
+.footer-features__list {
+  width: 350px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-column-gap: 50px;
+}

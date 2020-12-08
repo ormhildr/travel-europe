@@ -1,0 +1,13 @@
+.btn-buy {
+  display: flex;
+  justify-content: center;
+  padding-top: 28px;
+  padding-bottom: 31px;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+  color: $bgcolor-white;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  background-color: $btn-color;
+}

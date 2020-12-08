@@ -1,0 +1,36 @@
+.features-review {
+  margin-top: 100px;
+  margin-bottom: 129px;
+  margin-left: 316px;
+  padding: 30px;
+  background-color: $bgcolor-white;
+}
+
+.features-review__title {
+  margin: 0;
+  margin-bottom: 34px;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 37px;
+  color: $title-color;
+
+  &::after {
+    width: 70px;
+    height: 2px;
+    top: 48px;
+  }
+}
+
+.features-review__description {
+  margin: 0;
+  margin-bottom: 35px;
+  font-size: 14px;
+  letter-spacing: -0.408333px;
+}
+
+.features-review__author {
+  margin: 0;
+  padding-left: 56px;
+  font-weight: 500;
+  color: $title-color;
+}

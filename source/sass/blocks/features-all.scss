@@ -1,0 +1,46 @@
+.features-all {
+  margin-bottom: 138px;
+
+  @include bg-image("map-background-desktop.png");
+  background-position-y: 133px;
+  background-position-x: 236px;
+}
+
+.features-all__tabs {
+  display: flex;
+  width: 899px;
+  margin-bottom: 93px;
+  padding-bottom: 11px;
+  border-bottom: 1px solid $tabs-color;
+}
+
+.features-all__tab:not(:last-child) {
+  margin-right: 99px;
+}
+
+.features-all__tab {
+  a {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: $tabs-color;
+    letter-spacing: -0.415px;
+  }
+
+  &--current a {
+    color: $btn-color;
+  }
+}
+
+.features-all__list {
+  margin-bottom: 229px;
+}
+
+.features-all__item {
+  display: none;
+
+  &--current {
+    display: flex;
+    justify-content: space-between;
+  }
+}
